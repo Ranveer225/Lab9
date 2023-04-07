@@ -56,8 +56,10 @@ What is the value of the first triangle number to have over one hundred divisors
 
 /**
  * 
- * The First Triangle Number That Has Over 100 Divisors Is 73920
+ * The First Triangle Number That Has Over 100 Divisors: 73920
  */
+
+
 
 
 
