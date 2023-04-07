@@ -32,9 +32,25 @@ What is the value of the first triangle number to have over one hundred divisors
     */
     
     public static long
-    findTriangleNumberWithOverNDivisors(int n){
+    findTriangleNumberWithOverHDivisors(int h){
     int count = 0;        
-        return 0;
+        long triangleNumber= 0;
+     for(int i=1;count<=h; i++) {
+         
+         triangleNumber += i;
+         count = 0;
+     Math.sqrt(triangleNumber); int j = 0;
+     j++; {
+     count += 2;
+     // Perfect Square
+     if (Math.sqrt(triangleNumber) *
+             Math.sqrt(triangleNumber) == triangleNumber){
+     count--;
+     // Count roots twice
+     }
+     }
+     }
+     return triangleNumber;
 }
 }
 
